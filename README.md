@@ -87,10 +87,10 @@ println!("{author_fr}");
 
 There are many i18n frameworks. However, most of them are designed to only
 support one ecosystem (e.g., JS, Python, Android). Different frameworks have
-different developer workflows and vary by their quality and capabilies.
+different developer workflows and vary by their quality and capabilities.
 
-Although programming-language-agnostic tools exist, they are not not type-safe.
-Most frameworks depend on runtime lookups, which may be error-prone and lead to
+Although programming-language-agnostic tools exist, they are not type-safe. Most
+frameworks depend on runtime lookups, which may be error-prone and lead to
 poorer developer experience.
 
 Mulan&rsquo;s approach is to utilize static analysis to its fullest to generate
