@@ -51,13 +51,13 @@ pathdiff = "0.2.3"
 relative-path = "2.0.3"
 rstest = "0.28.0"
 serde = "1.0.229"
-serde-saphyr = "2.0.0"
+serde-saphyr = "=2.0.0"
 serde_with = "3.24.0"
 serdev = "0.3.2"
 strum = "0.28.0"
 tempfile = "3.27.0"
 thiserror = "2.0.21"
-toml = { version = "1.1.8", features = ["fast_hash"] }
+toml = { version = "1.2.0", features = ["fast_hash"] }
 
 [workspace.lints.clippy]
 all = { level = "warn", priority = -1 }
