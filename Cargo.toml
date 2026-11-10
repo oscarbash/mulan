@@ -57,7 +57,7 @@ serdev = "0.3.2"
 strum = "0.28.0"
 tempfile = "3.27.0"
 thiserror = "2.0.21"
-toml = { version = "1.2.0", features = ["fast_hash"] }
+toml = { version = "1.2.1", features = ["fast_hash"] }
 
 [workspace.lints.clippy]
 all = { level = "warn", priority = -1 }
