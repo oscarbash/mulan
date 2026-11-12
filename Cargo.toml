@@ -40,10 +40,7 @@ indent = "0.1.1"
 indoc = "2.0.8"
 itertools = "0.15.0"
 miette = "7.6.0"
-mitsein = {
-  git = "https://github.com/asqarslanov/mitsein.git",
-  branch = "compact-str",
-}
+mitsein = { git = "https://github.com/asqarslanov/mitsein.git", branch = "compact-str" }
 mulan-config = { path = "crates/mulan-config/" }
 mulan-gen = { path = "crates/mulan-gen/" }
 mulan-parser = { path = "crates/mulan-parser/" }
