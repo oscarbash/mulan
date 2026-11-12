@@ -52,7 +52,7 @@ impl Namespace {
         &self,
         parent_path: Option<&DottedKey>,
     ) -> impl Iterator<Item = (DottedKey, &Node)> {
-        let rtail = parent_path.map(|k| k.parts.to_vec()).unwrap_or_default();
+        let rtail = parent_path.map_or_default(|k| k.parts.to_vec());
         self.map.iter().map(move |(key_part, node)| {
             let parts = Vec1::from_rtail_and_head(rtail.clone(), key_part.clone());
             let key = DottedKey { parts };

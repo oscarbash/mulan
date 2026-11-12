@@ -119,7 +119,7 @@ fn traverse_namespace(
 ) -> Result<Namespace, TransposeError> {
     let mut map = BTreeMap::new();
     for (key_part, l_node) in namespace.map {
-        let rtail = namespace_key.map(|k| k.parts.to_vec()).unwrap_or_default();
+        let rtail = namespace_key.map_or_default(|k| k.parts.to_vec());
         let parts = Vec1::from_rtail_and_head(rtail, key_part.clone());
         let key = DottedKey { parts };
         let node = handle_node(config, l_node, key, locale_map)?;
