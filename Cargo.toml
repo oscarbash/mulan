@@ -30,7 +30,7 @@ publish = false
 
 [workspace.dependencies]
 aho-corasick = "1.1.5"
-chumsky = "0.13.0"
+chumsky = "0.14.1"
 clap = "4.6.8"
 cliclack = "0.5.7"
 compact_str = "0.10.0"
