@@ -965,7 +965,7 @@ dependencies = [
 [[package]]
 name = "mitsein"
 version = "0.10.0"
-source = "git+https://github.com/asqarslanov/mitsein.git?branch=compact-str#aa0b24e226c04ea1bc8fca44b2b184f1eb46428e"
+source = "git+https://github.com/asqarslanov/mitsein.git?branch=compact-str#5591a64e18ca8073ff1ed6d170b6f60dd477bfa9"
 dependencies = [
  "arrayvec",
  "compact_str",
