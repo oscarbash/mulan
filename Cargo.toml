@@ -30,8 +30,8 @@ publish = false
 
 [workspace.dependencies]
 aho-corasick = "1.1.5"
-chumsky = "0.13.0"
-clap = "4.6.7"
+chumsky = "0.14.2"
+clap = "4.6.9"
 cliclack = "0.5.7"
 compact_str = "0.10.0"
 figment2 = "0.11.5"
@@ -40,10 +40,7 @@ indent = "0.1.1"
 indoc = "2.0.8"
 itertools = "0.15.0"
 miette = "7.6.0"
-mitsein = {
-  git = "https://github.com/asqarslanov/mitsein.git",
-  branch = "compact-str",
-}
+mitsein = { git = "https://github.com/asqarslanov/mitsein.git", branch = "compact-str" }
 mulan-config = { path = "crates/mulan-config/" }
 mulan-gen = { path = "crates/mulan-gen/" }
 mulan-parser = { path = "crates/mulan-parser/" }
@@ -51,13 +48,13 @@ pathdiff = "0.2.3"
 relative-path = "2.0.3"
 rstest = "0.28.0"
 serde = "1.0.229"
-serde-saphyr = "2.1.1"
-serde_with = "3.24.0"
+serde-saphyr = "2.2.0"
+serde_with = "3.25.0"
 serdev = "0.3.2"
 strum = "0.28.0"
 tempfile = "3.27.0"
 thiserror = "2.0.21"
-toml = { version = "1.2.1", features = ["fast_hash"] }
+toml = { version = "1.2.2", features = ["fast_hash"] }
 
 [workspace.lints.clippy]
 all = { level = "warn", priority = -1 }
